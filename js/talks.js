@@ -19,4 +19,13 @@ export default [{
     text: 'Online slideshow'
   }],
   year: 2018
+}, {
+  title: 'Node based CLIs',
+  subtitle: 'Being awesome in JavaScript',
+  description: 'This talk takes a look at a range of great, NodeJS based command line interfaces. After exploring all that awesomeness, we also take a look at a way to build out own.',
+  links: [{
+    href: 'https://docs.google.com/presentation/d/1EpF_EJXtb6vIjXG5Vone7kc6cZhrZLDhmUnTYkYP_4M/edit?usp=drivesdk',
+    text: 'Online slideshow'
+  }],
+  year: 2017
 }]
