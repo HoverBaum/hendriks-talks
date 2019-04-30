@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "description": "A simple website representing talks by Hendrik",
   "scripts": {
-    "build": "rm -rf build && mkdir build && mkdir build/css && stylus css -c -o build/css && cp index.html build/index.html",
+    "build": "rm -rf build && mkdir build && mkdir build/css && stylus css -c -o build/css && cp index.html build/index.html && mkdir build/js && cp -r js build",
     "start": "concurrently \"npm run stylus\" \"live-server\"",
     "stylus": "stylus css -w"
   },
