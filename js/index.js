@@ -10,7 +10,7 @@ const talksTemplate = talks => html`${talks.map(talk => html`
     <p>${talk.description}</p>
     <ul>
       ${talk.links.map(link => html`
-        <li><a href="${link.href}">${link.text}</a></li>
+        <li><a target="_blank" href="${link.href}">${link.text}</a></li>
       `)}
     </ul>
   </section>

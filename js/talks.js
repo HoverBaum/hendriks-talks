@@ -5,6 +5,9 @@ export default [{
   links: [{
     href: 'http://testing-webapps.talks.hoverbaum.net/',
     text: 'Online slideshow'
+  }, {
+    href: '/pdf/testing-webapps.pdf',
+    text: 'As PDF'
   }]
 }, {
   title: 'How I fell in love with an APi first CMS',
