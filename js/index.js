@@ -13,6 +13,7 @@ const talksTemplate = talks => html`${talks.map(talk => html`
         <li><a target="_blank" href="${link.href}">${link.text}</a></li>
       `)}
     </ul>
+    <span class="year">${talk.year}</span>
   </section>
 `)}`
 

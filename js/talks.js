@@ -8,7 +8,8 @@ export default [{
   }, {
     href: '/pdf/testing-webapps.pdf',
     text: 'As PDF'
-  }]
+  }],
+  year: 2019
 }, {
   title: 'How I fell in love with an APi first CMS',
   subtitle: 'The rise of fun CMS development',
@@ -16,5 +17,6 @@ export default [{
   links: [{
     href: 'https://docs.google.com/presentation/d/1NqdL0ILZqqbQSqw4yM0462jHxl3ER3JjdmfhicuQLBs/edit?usp=drivesdk',
     text: 'Online slideshow'
-  }]
+  }],
+  year: 2018
 }]
