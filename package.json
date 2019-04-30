@@ -1,0 +1,17 @@
+{
+  "name": "hendriks-talks",
+  "version": "1.0.0",
+  "description": "A simple website representing talks by Hendrik",
+  "scripts": {
+    "build": "rm -rf build && mkdir build && mkdir build/css && stylus css -c -o build/css && cp index.html build/index.html",
+    "start": "concurrently \"npm run stylus\" \"live-server\"",
+    "stylus": "stylus css -w"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "concurrently": "^4.1.0",
+    "live-server": "^1.2.1",
+    "stylus": "^0.54.5"
+  }
+}
