@@ -28,4 +28,13 @@ export default [{
     text: 'Online slideshow'
   }],
   year: 2017
+}, {
+  title: 'ChooJS',
+  subtitle: 'Introducing choo',
+  description: 'An introduction to ChooJS. A framework combining the best practices learned in React to create a fun developer experience.',
+  links: [{
+    href: 'https://docs.google.com/presentation/d/1fTcz2TzSUa5nnXy-AfAaWS-_GwSxZ3QY9OG5KRmJQAI/edit?usp=sharing',
+    text: 'Online slideshow'
+  }],
+  year: 2017
 }]
