@@ -17,6 +17,9 @@ export default [{
   links: [{
     href: 'https://docs.google.com/presentation/d/1NqdL0ILZqqbQSqw4yM0462jHxl3ER3JjdmfhicuQLBs/edit?usp=drivesdk',
     text: 'Online slideshow'
+  }, {
+    href: '/pdf/api-first-cms.pdf',
+    text: 'As PDF'
   }],
   year: 2018
 }, {
@@ -26,6 +29,9 @@ export default [{
   links: [{
     href: 'https://docs.google.com/presentation/d/1EpF_EJXtb6vIjXG5Vone7kc6cZhrZLDhmUnTYkYP_4M/edit?usp=drivesdk',
     text: 'Online slideshow'
+  }, {
+    href: '/pdf/node-based-cli.pdf',
+    text: 'As PDF'
   }],
   year: 2017
 }, {
@@ -35,6 +41,9 @@ export default [{
   links: [{
     href: 'https://docs.google.com/presentation/d/1fTcz2TzSUa5nnXy-AfAaWS-_GwSxZ3QY9OG5KRmJQAI/edit?usp=sharing',
     text: 'Online slideshow'
+  }, {
+    href: '/pdf/choo-frontend.pdf',
+    text: 'As PDF'
   }],
   year: 2017
 }]
