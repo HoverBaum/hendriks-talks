@@ -1,8 +1,8 @@
 export default [{
   title: 'Testing webapps',
   subtitle: 'The whys and hows of testing and Cypress',
-  description: 'A talk about why you should do end to end (e2e) testing for your webapps and how to use Cypress for e2e-testing. We will gather motivation to get started with testing before diving into Cypress as an amazing tool to get the job done.',
-  links: [{
+  description: 'A talk about why you should do end to end (e2e) testing for your webapps and how to use Cypress for e2e-testing. We will gather motivation to get started with testing before diving into Cypress as an amazing tool to get the job done.<br>🚧Work in progress🚧',
+  linksForLater: [{
     href: 'http://testing-webapps.talks.hoverbaum.net/',
     text: 'Online slideshow'
   }, {
