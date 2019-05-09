@@ -8,6 +8,9 @@ export default [{
   }, {
     href: '/pdf/testing-webapps.pdf',
     text: 'As PDF (v1)'
+  }, {
+    href: 'https://github.com/HoverBaum/talk-testing-during-development',
+    text: 'GitHub Repo'
   }],
   year: 2019
 }, {
