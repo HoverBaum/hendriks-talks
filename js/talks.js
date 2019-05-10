@@ -7,7 +7,7 @@ export default [{
     text: 'Online slideshow'
   }, {
     href: '/pdf/testing-webapps.pdf',
-    text: 'As PDF (v1)'
+    text: 'As PDF'
   }, {
     href: 'https://github.com/HoverBaum/talk-testing-during-development',
     text: 'GitHub Repo'
