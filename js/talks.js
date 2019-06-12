@@ -4,10 +4,13 @@ export default [{
   description: 'A talk about why you should do end to end (e2e) testing for your webapps and how to use Cypress for e2e-testing. We will gather motivation to get started with testing before diving into Cypress as an amazing tool to get the job done.',
   links: [{
     href: 'http://testing-webapps.talks.hoverbaum.net/',
-    text: 'Online slideshow'
+    text: 'HTML based presentation'
   }, {
     href: '/pdf/testing-webapps.pdf',
-    text: 'As PDF'
+    text: 'As PDF (current)'
+  }, {
+    href: '/pdf/testing-webapps-charlie.pdf',
+    text: 'As PDF (charlie)'
   }, {
     href: 'https://github.com/HoverBaum/talk-testing-during-development',
     text: 'GitHub Repo'
