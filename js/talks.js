@@ -6,8 +6,8 @@ export default [{
     href: 'http://testing-webapps.talks.hoverbaum.net/',
     text: 'HTML based presentation'
   }, {
-    href: '/pdf/testing-webapps.pdf',
-    text: 'As PDF (current)'
+    href: '/pdf/testing-webapps-nl-and-connects.pdf',
+    text: 'As PDF (NL and Hamburg connects)'
   }, {
     href: '/pdf/testing-webapps-charlie.pdf',
     text: 'As PDF (charlie)'
