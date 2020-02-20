@@ -1,5 +1,17 @@
 export default [
   {
+    title: '🔮 A short history of webdevs future',
+    subtitle: 'An introduction to webdev',
+    description:
+      'In this talk we will explore the history of web development to understand it’s current state and future. This journey through time is a reflection for web developers as well, as an entry point for everyone unrelated to the craft.',
+    links: [
+      {
+        href: 'https://webdev-intro.talks.hoverbaum.net/',
+        text: 'HTML based presentation'
+      }
+    ]
+  },
+  {
     title: '🧐 Testing webapps',
     subtitle: 'The whys and hows of testing and Cypress',
     description:
