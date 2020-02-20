@@ -8,6 +8,10 @@ export default [
       {
         href: 'https://webdev-intro.talks.hoverbaum.net/',
         text: 'HTML based presentation'
+      },
+      {
+        link: 'https://github.com/HoverBaum/talk-webdev-history-and-future',
+        text: 'GitHub Repo'
       }
     ]
   },
