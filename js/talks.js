@@ -13,7 +13,8 @@ export default [
         link: 'https://github.com/HoverBaum/talk-webdev-history-and-future',
         text: 'GitHub Repo'
       }
-    ]
+    ],
+    year: 2020
   },
   {
     title: '🧐 Testing webapps',
