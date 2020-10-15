@@ -1,5 +1,18 @@
 export default [
   {
+    title: '🤑 How I earned 2 cents',
+    subtitle: 'and why that changes the internet',
+    description:
+      'A talk about Web monetization, Activity Pub and how "Protocol over Platform" is shaping the webs future.',
+    links: [
+      {
+        href: 'https://2cents-web.talks.hoverbaum.net/',
+        text: 'HTML based presentation',
+      },
+    ],
+    year: 2020,
+  },
+  {
     title: '🔮 A short history of webdevs future',
     subtitle: 'An introduction to webdev',
     description:
@@ -7,14 +20,14 @@ export default [
     links: [
       {
         href: 'https://webdev-intro.talks.hoverbaum.net/',
-        text: 'HTML based presentation'
+        text: 'HTML based presentation',
       },
       {
         link: 'https://github.com/HoverBaum/talk-webdev-history-and-future',
-        text: 'GitHub Repo'
-      }
+        text: 'GitHub Repo',
+      },
     ],
-    year: 2020
+    year: 2020,
   },
   {
     title: '🧐 Testing webapps',
@@ -24,30 +37,30 @@ export default [
     links: [
       {
         href: 'http://testing-webapps.talks.hoverbaum.net/',
-        text: 'HTML based presentation'
+        text: 'HTML based presentation',
       },
       {
         href: 'https://www.youtube.com/watch?v=ZlHxwSJoCZM',
-        text: 'Recording: code.talks 2019'
+        text: 'Recording: code.talks 2019',
       },
       {
         href: 'https://www.youtube.com/watch?v=u2_rljUQArs',
-        text: 'Recording: Softwerkskammer 2019'
+        text: 'Recording: Softwerkskammer 2019',
       },
       {
         href: '/pdf/testing-webapps-nl-and-connects.pdf',
-        text: 'As PDF (NL and Hamburg connects)'
+        text: 'As PDF (NL and Hamburg connects)',
       },
       {
         href: '/pdf/testing-webapps-charlie.pdf',
-        text: 'As PDF (charlie)'
+        text: 'As PDF (charlie)',
       },
       {
         href: 'https://github.com/HoverBaum/talk-testing-during-development',
-        text: 'GitHub Repo'
-      }
+        text: 'GitHub Repo',
+      },
     ],
-    year: 2019
+    year: 2019,
   },
   {
     title: '😍 How I fell in love with an APi first CMS',
@@ -58,14 +71,14 @@ export default [
       {
         href:
           'https://docs.google.com/presentation/d/1NqdL0ILZqqbQSqw4yM0462jHxl3ER3JjdmfhicuQLBs/edit?usp=drivesdk',
-        text: 'Online slideshow'
+        text: 'Online slideshow',
       },
       {
         href: '/pdf/api-first-cms.pdf',
-        text: 'As PDF'
-      }
+        text: 'As PDF',
+      },
     ],
-    year: 2018
+    year: 2018,
   },
   {
     title: '🔩 Node based CLIs',
@@ -76,14 +89,14 @@ export default [
       {
         href:
           'https://docs.google.com/presentation/d/1EpF_EJXtb6vIjXG5Vone7kc6cZhrZLDhmUnTYkYP_4M/edit?usp=drivesdk',
-        text: 'Online slideshow'
+        text: 'Online slideshow',
       },
       {
         href: '/pdf/node-based-cli.pdf',
-        text: 'As PDF'
-      }
+        text: 'As PDF',
+      },
     ],
-    year: 2017
+    year: 2017,
   },
   {
     title: '🚂 ChooJS',
@@ -94,13 +107,13 @@ export default [
       {
         href:
           'https://docs.google.com/presentation/d/1fTcz2TzSUa5nnXy-AfAaWS-_GwSxZ3QY9OG5KRmJQAI/edit?usp=sharing',
-        text: 'Online slideshow'
+        text: 'Online slideshow',
       },
       {
         href: '/pdf/choo-frontend.pdf',
-        text: 'As PDF'
-      }
+        text: 'As PDF',
+      },
     ],
-    year: 2017
-  }
+    year: 2017,
+  },
 ]
