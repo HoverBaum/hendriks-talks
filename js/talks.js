@@ -9,6 +9,10 @@ export default [
         href: 'https://2cents-web.talks.hoverbaum.net/',
         text: 'HTML based presentation',
       },
+      {
+        link: 'https://github.com/HoverBaum/talk-2cents-changing-the-web',
+        text: 'GitHub Repo',
+      },
     ],
     year: 2020,
   },
