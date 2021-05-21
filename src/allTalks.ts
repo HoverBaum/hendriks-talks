@@ -1,4 +1,17 @@
-export default [
+export type LinkType = {
+  href: string
+  text: string
+}
+
+export type TalkType = {
+  title: string
+  subtitle: string
+  description: string
+  links: LinkType[]
+  year: number
+}
+
+export const talks: TalkType[] = [
   {
     title: '🤑 How I earned 2 cents',
     subtitle: 'and why that changes the internet',
@@ -10,7 +23,7 @@ export default [
         text: 'HTML based presentation',
       },
       {
-        link: 'https://github.com/HoverBaum/talk-2cents-changing-the-web',
+        href: 'https://github.com/HoverBaum/talk-2cents-changing-the-web',
         text: 'GitHub Repo',
       },
     ],
@@ -27,7 +40,7 @@ export default [
         text: 'HTML based presentation',
       },
       {
-        link: 'https://github.com/HoverBaum/talk-webdev-history-and-future',
+        href: 'https://github.com/HoverBaum/talk-webdev-history-and-future',
         text: 'GitHub Repo',
       },
     ],
@@ -73,8 +86,7 @@ export default [
       'We take a look at the historic development of CMS solutions and arive at API first CMS systems.',
     links: [
       {
-        href:
-          'https://docs.google.com/presentation/d/1NqdL0ILZqqbQSqw4yM0462jHxl3ER3JjdmfhicuQLBs/edit?usp=drivesdk',
+        href: 'https://docs.google.com/presentation/d/1NqdL0ILZqqbQSqw4yM0462jHxl3ER3JjdmfhicuQLBs/edit?usp=drivesdk',
         text: 'Online slideshow',
       },
       {
@@ -91,8 +103,7 @@ export default [
       'This talk takes a look at a range of great, NodeJS based command line interfaces. After exploring all that awesomeness, we also take a look at a way to build out own.',
     links: [
       {
-        href:
-          'https://docs.google.com/presentation/d/1EpF_EJXtb6vIjXG5Vone7kc6cZhrZLDhmUnTYkYP_4M/edit?usp=drivesdk',
+        href: 'https://docs.google.com/presentation/d/1EpF_EJXtb6vIjXG5Vone7kc6cZhrZLDhmUnTYkYP_4M/edit?usp=drivesdk',
         text: 'Online slideshow',
       },
       {
@@ -109,8 +120,7 @@ export default [
       'An introduction to ChooJS. A framework combining the best practices learned in React to create a fun developer experience.',
     links: [
       {
-        href:
-          'https://docs.google.com/presentation/d/1fTcz2TzSUa5nnXy-AfAaWS-_GwSxZ3QY9OG5KRmJQAI/edit?usp=sharing',
+        href: 'https://docs.google.com/presentation/d/1fTcz2TzSUa5nnXy-AfAaWS-_GwSxZ3QY9OG5KRmJQAI/edit?usp=sharing',
         text: 'Online slideshow',
       },
       {

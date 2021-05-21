@@ -3,15 +3,21 @@
   "version": "1.0.0",
   "description": "A simple website representing talks by Hendrik",
   "scripts": {
-    "build": "rm -rf build && mkdir build && mkdir build/css && stylus css -c -o build/css && cp index.html build/index.html && cp -rf js build && cp -rf pdf build",
-    "start": "concurrently \"npm run stylus\" \"live-server\"",
+    "dev": "next dev",
+    "start": "next start",
+    "build": "next build && next export",
     "stylus": "stylus css -w"
   },
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "concurrently": "^4.1.0",
-    "live-server": "^1.2.1",
+    "next": "^10.2.2",
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2",
     "stylus": "^0.54.5"
+  },
+  "devDependencies": {
+    "@types/react": "^17.0.6",
+    "typescript": "^4.2.4"
   }
 }
