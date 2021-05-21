@@ -8,7 +8,7 @@ const Talks: ComponentType<TalksProps> = () => {
   return (
     <>
       {talks.map((talk) => (
-        <Talk talk={talk} />
+        <Talk key={talk.title} talk={talk} />
       ))}
     </>
   )

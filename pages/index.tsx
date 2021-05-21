@@ -1,8 +1,60 @@
+/** @jsxImportSource @emotion/react */
+import { css, Global } from '@emotion/react'
 import Talks from '../src/Talks'
 
 const HomePage = () => {
   return (
     <>
+      <Global
+        styles={css`
+          html {
+            background-color: #ededed;
+            font: normal 16px/22px 'Roboto', sans-serif;
+            color: rgba(0, 0, 0, 0.87);
+          }
+          body {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            margin: 0;
+            min-height: 100vh;
+            padding-top: 1rem;
+          }
+          main {
+            flex-grow: 1;
+          }
+          footer {
+            margin-top: 3rem;
+            padding-bottom: 1rem;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+          }
+          hgroup h2 {
+            margin-bottom: 0.2rem;
+          }
+          h1,
+          h2,
+          h3,
+          h4,
+          h5,
+          h6 {
+            color: #334a5e;
+            font-weight: 300;
+          }
+          .wrapper {
+            width: 50rem;
+            padding-top: 1rem;
+            max-width: 90%;
+          }
+          .year {
+            position: absolute;
+            bottom: 1rem;
+            right: 1rem;
+            opacity: 0.3;
+          }
+        `}
+      />
       <header className="wrapper">
         <hgroup className="page-heading">
           <h1>Talks by Hendrik</h1>

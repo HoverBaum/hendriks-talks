@@ -1,5 +1,7 @@
 import { ComponentType } from 'react'
 import { TalkType } from './allTalks'
+import { Card } from './Card'
+import { CardHeader } from './CardHeader'
 
 export interface TalkProps {
   talk: TalkType
@@ -7,16 +9,13 @@ export interface TalkProps {
 
 const Talk: ComponentType<TalkProps> = ({ talk }) => {
   return (
-    <section className="card card_1">
-      <hgroup>
-        <h2>{talk.title}</h2>
-        <small>{talk.subtitle}</small>
-      </hgroup>
+    <Card>
+      <CardHeader title={talk.title} subtitle={talk.subtitle} />
       <p>{talk.description}</p>
       <ul>
         {talk.links &&
           talk.links.map((link) => (
-            <li>
+            <li key={link.href}>
               <a target="_blank" href="${link.href}">
                 {link.text}
               </a>
@@ -24,7 +23,7 @@ const Talk: ComponentType<TalkProps> = ({ talk }) => {
           ))}
       </ul>
       <span className="year">{talk.year}</span>
-    </section>
+    </Card>
   )
 }
 
