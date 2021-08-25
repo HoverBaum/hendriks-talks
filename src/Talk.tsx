@@ -16,7 +16,7 @@ const Talk: ComponentType<TalkProps> = ({ talk }) => {
         {talk.links &&
           talk.links.map((link) => (
             <li key={link.href}>
-              <a target="_blank" href="${link.href}">
+              <a target="_blank" href={link.href}>
                 {link.text}
               </a>
             </li>
