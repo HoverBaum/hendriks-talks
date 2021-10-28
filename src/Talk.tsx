@@ -4,6 +4,7 @@ import { ComponentType } from 'react'
 import { TalkType } from './allTalks'
 import { Card } from './Card'
 import { CardHeader } from './CardHeader'
+import { Paragraph } from './components/typography/Paragraph'
 
 export interface TalkProps {
   talk: TalkType
@@ -17,7 +18,7 @@ const Talk: ComponentType<TalkProps> = ({ talk }) => {
       `}
     >
       <CardHeader title={talk.title} subtitle={talk.subtitle} />
-      <p>{talk.description}</p>
+      <Paragraph>{talk.description}</Paragraph>
       <ul>
         {talk.links &&
           talk.links.map((link) => (

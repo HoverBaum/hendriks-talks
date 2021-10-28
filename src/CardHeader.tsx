@@ -1,6 +1,8 @@
 /** @jsxImportSource @emotion/react */
 import { css } from '@emotion/react'
 import { ComponentType } from 'react'
+import { Headline } from './components/typography/Headline'
+import { Subtitle } from './components/typography/Subtitle'
 
 export type CardHeaderProp = {
   title: string
@@ -13,8 +15,8 @@ export const CardHeader: ComponentType<CardHeaderProp> = ({
 }) => {
   return (
     <hgroup>
-      <h2>{title}</h2>
-      {!!subtitle && <h4 style={{ marginTop: '1rem' }}>{subtitle}</h4>}
+      <Headline>{title}</Headline>
+      {!!subtitle && <Subtitle>{subtitle}</Subtitle>}
     </hgroup>
   )
 }
