@@ -13,14 +13,8 @@ export const CardHeader: ComponentType<CardHeaderProp> = ({
 }) => {
   return (
     <hgroup>
-      <h2
-        css={css`
-          margin-top: 0;
-        `}
-      >
-        {title}
-      </h2>
-      {!!subtitle && <small>{subtitle}</small>}
+      <h2>{title}</h2>
+      {!!subtitle && <h4 style={{ marginTop: '1rem' }}>{subtitle}</h4>}
     </hgroup>
   )
 }

@@ -4,12 +4,25 @@ import Talks from '../src/Talks'
 
 const HomePage = () => {
   return (
-    <>
+    <div
+      css={css`
+        padding-top: 1rem;
+        max-width: 50rem;
+        padding: 0 1rem;
+      `}
+    >
       <Global
         styles={css`
+          @font-face {
+            font-family: 'Simonetta-Black';
+            src: url('/fonts/Simonetta-Black.ttf');
+          }
+          @font-face {
+            font-family: 'Simonetta';
+            src: url('/fonts/Simonetta-Regular.ttf');
+          }
           html {
-            background-color: #ededed;
-            font: normal 16px/22px 'Roboto', sans-serif;
+            font: normal 16px 'Roboto', sans-serif;
             color: rgba(0, 0, 0, 0.87);
           }
           body {
@@ -40,24 +53,49 @@ const HomePage = () => {
           h5,
           h6 {
             color: #334a5e;
-            font-weight: 300;
+            font-family: 'Simonetta-Black', serif;
+            line-height: 100%;
           }
-          .wrapper {
-            width: 50rem;
-            padding-top: 1rem;
-            max-width: 90%;
+          h1 {
+            font-size: 5.2917rem;
+            margin-top: 2.488em;
           }
-          .year {
-            position: absolute;
-            bottom: 1rem;
-            right: 1rem;
-            opacity: 0.3;
+          h2 {
+            font-size: 2.6458rem;
+            margin-top: 2.074em;
+          }
+          h3 {
+            font-size: 1.75rem;
+            margin-top: 1.728em;
+          }
+          h4 {
+            font-size: 1.333rem;
+            margin-top: 1.44em;
+          }
+          small {
+            font-size: 0.7708rem;
+          }
+          p {
+            line-height: 150%;
+          }
+          a {
+            color: #cc3600;
+          }
+          ::selection {
+            background: #ff6933;
+            color: white;
           }
         `}
       />
-      <header className="wrapper">
+      <header>
         <hgroup className="page-heading">
-          <h1>Talks by Hendrik</h1>
+          <h1
+            css={css`
+              margin-top: 0;
+            `}
+          >
+            Talks by Hendrik
+          </h1>
           <p>
             This is a list of publically available slides from the talks I have
             given.
@@ -74,11 +112,11 @@ const HomePage = () => {
         </hgroup>
       </header>
 
-      <main className="wrapper" id="talks">
+      <main id="talks">
         <Talks />
       </main>
 
-      <footer className="wrapper">
+      <footer>
         <img src="https://storage.googleapis.com/hoverbaum-blog-assets/emojies/emoji-tree.png" />
 
         <small>
@@ -90,7 +128,7 @@ const HomePage = () => {
           .
         </small>
       </footer>
-    </>
+    </div>
   )
 }
 

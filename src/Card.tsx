@@ -16,14 +16,14 @@ export const Card: ComponentType<CardProps> = ({ children, elevation = 1 }) => {
   return (
     <section
       css={css`
-        background: #fff;
+        /* background: #fff;
         border-radius: 2px;
         margin: 1rem;
         margin-top: 2rem;
         padding: 1rem;
-        padding-top: 1.2rem;
+        padding-top: 1.2rem; */
         position: relative;
-        ${boxShadows[elevation - 1]}
+        /* ${boxShadows[elevation - 1]} */
       `}
     >
       {children}
