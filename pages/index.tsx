@@ -1,8 +1,6 @@
 /** @jsxImportSource @emotion/react */
 import { css, Global } from '@emotion/react'
-import { Paragraph } from '../src/components/typography/Paragraph'
-import { Small } from '../src/components/typography/Small'
-import { Title } from '../src/components/typography/Title'
+import { Paragraph, Small, Title } from '../src/baum-ui'
 import Talks from '../src/Talks'
 
 const HomePage = () => {

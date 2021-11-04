@@ -1,8 +1,6 @@
 /** @jsxImportSource @emotion/react */
-import { css } from '@emotion/react'
 import { ComponentType } from 'react'
-import { Headline } from './components/typography/Headline'
-import { Subtitle } from './components/typography/Subtitle'
+import { Headline, Subtitle } from './baum-ui'
 
 export type CardHeaderProp = {
   title: string

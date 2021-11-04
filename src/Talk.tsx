@@ -2,9 +2,8 @@
 import { css } from '@emotion/react'
 import { ComponentType } from 'react'
 import { TalkType } from './allTalks'
-import { Card } from './Card'
 import { CardHeader } from './CardHeader'
-import { Paragraph } from './components/typography/Paragraph'
+import { Paragraph } from './baum-ui'
 
 export interface TalkProps {
   talk: TalkType
