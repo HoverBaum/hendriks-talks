@@ -1,6 +1,6 @@
 /** @jsxImportSource @emotion/react */
 import { css, Global } from '@emotion/react'
-import { Paragraph, Small, Title } from '../src/baum-ui'
+import { Paragraph, Small, Title, Globals } from '../src/baum-ui'
 import Talks from '../src/Talks'
 
 const HomePage = () => {
@@ -14,18 +14,6 @@ const HomePage = () => {
     >
       <Global
         styles={css`
-          @font-face {
-            font-family: 'Simonetta-Black';
-            src: url('/fonts/Simonetta-Black.ttf');
-          }
-          @font-face {
-            font-family: 'Simonetta';
-            src: url('/fonts/Simonetta-Regular.ttf');
-          }
-          html {
-            font: normal 18px 'Roboto', sans-serif;
-            color: rgba(0, 0, 0, 0.87);
-          }
           body {
             display: flex;
             flex-direction: column;
@@ -41,15 +29,9 @@ const HomePage = () => {
             flex-direction: column;
             align-items: center;
           }
-          a {
-            color: #cc3600;
-          }
-          ::selection {
-            background: #ff6933;
-            color: white;
-          }
         `}
       />
+      <Globals />
       <header>
         <Title>Talks by Hendrik</Title>
 
