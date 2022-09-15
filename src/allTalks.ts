@@ -18,7 +18,7 @@ export const talks: TalkType[] = [
     description: 'A practical guide to "Growth Hacking" by example.',
     links: [
       {
-        href: 'https://develop-growth.wallbaum.dev/',
+        href: 'https://developing-growth.wallbaum.dev/',
         text: 'HTML based presentation',
       },
     ],
