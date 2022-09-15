@@ -21,6 +21,10 @@ export const talks: TalkType[] = [
         href: 'https://developing-growth.wallbaum.dev/',
         text: 'HTML based presentation',
       },
+      {
+        href: 'https://github.com/HoverBaum/talk-developing-growth',
+        text: 'GitHub Repo',
+      },
     ],
     year: 2022,
   },
