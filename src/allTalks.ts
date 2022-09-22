@@ -23,6 +23,10 @@ export const talks: TalkType[] = [
         text: 'HTML based presentation',
       },
       {
+        href: '/pdf/developing-growth-hendrik-wallbaum.pdf',
+        text: 'Code.Talks 2022 version as PDF',
+      },
+      {
         href: 'https://github.com/HoverBaum/talk-2cents-changing-the-web',
         text: 'GitHub Repo',
       },
