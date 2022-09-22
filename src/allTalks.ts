@@ -13,6 +13,22 @@ export type TalkType = {
 
 export const talks: TalkType[] = [
   {
+    title: '🌱 Developing Growth',
+    subtitle: '',
+    description: 'A practical guide to "Growth Hacking" by example.',
+    links: [
+      {
+        href: 'https://developing-growth.wallbaum.dev/',
+        text: 'HTML based presentation',
+      },
+      {
+        href: 'https://github.com/HoverBaum/talk-developing-growth',
+        text: 'GitHub Repo',
+      },
+    ],
+    year: 2022,
+  },
+  {
     title: '🤑 How I earned 2 cents',
     subtitle: 'and why that changes the internet',
     description:
